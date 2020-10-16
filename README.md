@@ -1,6 +1,6 @@
-# YOLO-Dynamic ROS
+# YOLO-Dynamic-ROS
 ___
-Baseline of this code is strongly [this official repository](https://github.com/leggedrobotics/darknet_ros). Original README is in the followed link. However, this code has been a problem of dynamic allocation in scheduling and threading during parsing real-time images. Therfore, edited author fixes below issues: from v1 to v7. In addition, the edited author adds tracking function to YOLO by Linear Kalman Filter.
+Baseline of this code is strongly [this official repository](https://github.com/leggedrobotics/darknet_ros). Original README is in the followed link. However, this code has been a problem of **dynamic** allocation in scheduling and threading during parsing real-time images. Therfore, edited author fixes below issues: from v1 to v7. In addition, the edited author adds tracking function to YOLO by Linear Kalman Filter.
 
   **Original Author: [Marko Bjelonic](https://sites.google.com/site/bjelonicmarko/), marko.bjelonic@mavt.ethz.ch** <br />
   **Edited Author : [Byung-KwanLee](https://scholar.google.co.kr/citations?user=rl0JXCQAAAAJ&hl=en) (leebk@kaist.ac.kr)**
