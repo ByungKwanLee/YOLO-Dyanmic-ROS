@@ -27,10 +27,10 @@ ___
     + Keeping prediction without detection
 ___
 
-### V4 : depth Extraction from detected and tracked Objects
+### V4 : depth extraction from detected and tracked objects
 - Add boundingbox message to distacne from the object
 ___
-### V3 : real-Time Object Tracking by Linear Kalman filter
+### V3 : real-time object tracking by linear kalman filter
 - Adding Kalman Filter on the Detection thread
 - Transition and Updating Error Covariance
 - Dynamic Allocation and Remove Completely
@@ -38,7 +38,7 @@ ___
 - Publishing Object ID with Bounding Box info for sensor fusion
 ___
 
-### V2 : matching and multithread for Tracking
+### V2 : matching and multithread for tracking
 - Matching tech by class
 - Completely generate multi thread for tracking 30HZ
 ___
